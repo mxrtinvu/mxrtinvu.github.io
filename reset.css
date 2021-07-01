@@ -1,0 +1,32 @@
+
+html, body,h1, a, p, img, ul, li,article, figure, figcaption, footer, header, hgroup,nav, section, .about-block, .SAA-block,.EAQ-block,.exp-block,.CM-block{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+body {
+	line-height: 1;
+}
+
+
+nav ul {
+    list-style:none;
+}
+
+figure {
+    margin: 0;
+}
+
+button {
+    text-transform: none;
+}
+
+img {
+    vertical-align: middle;
+}

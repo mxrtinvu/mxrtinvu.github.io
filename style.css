@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+body{
+    background-color:#23212E;
+    margin:0px;
+    padding:0px;
+}
+
+p {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+li {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+section{
+    width:100%;
+    height:95vh;
+    background-image:url();
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    height:60px;
+    background-color:#BCB2E4;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    padding:0px 5%;
+}
+
+nav ul{
+    display: flex;
+
+}
+
+header{
+    font-size: 30px;
+    color:#23212E;
+    margin:5px;
+}
+
+#hai {
+  color: white;
+}
+
+
+nav ul li a{
+    margin:30px;
+    color:#23212E;
+    font-size:15px;
+    display:inline-block;
+    margin-left: 70px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color:#6d6e6b
+
+}
+
+
+.text-block  p:nth-child(1){
+    font-family: calibri;
+    font-weight:bold;
+    color: #1c1c1b;
+    font-size:22px;
+}
+.text-block  p:nth-child(2){
+    font-family: calibri;
+    font-weight:bold;
+    letter-spacing:1px;
+    color:#1c1c1b;
+    font-size: 60px;
+
+}
+.text-block  p:nth-child(3){
+    color:#1c1c1b;
+    font-size: 30px;
+}
+.text-block  p{
+    line-height: 0px;
+    margin:45px 0px 25px;
+
+}
+.text-block{
+    position: absolute;
+    left:13%;
+    top:30%;
+    transform:translate(-13%,-42%);
+}
+.text-block button{
+    width:130px;
+    height: 42px;
+    border-radius:10px;
+    font-family:calibri;
+    font-weight:bold;
+    font-size:14px;
+    outline:none;
+    margin:0px 10px;
+
+}
+
+.down-cv{
+    background-color:#0b0b0b;
+    color:#FFFFFF;
+    border:none;
+}
+
+.faceless{
+    width: 1680px;
+    height: 945px;
+    display: block;
+    margin-left:190px;
+}
+
+.bunbun{
+    width: 415px ;
+    height: 300px ;
+    display: flex;
+    margin-left: 550px;
+    margin-top: -550px;
+}
+
+.about-block{
+    width:50%;
+    height:200px;
+    background-color:#BCB2E4;
+    border-radius:20px;
+    position: relative;
+    left: 140px;
+    top: -280px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.SAA-block{
+    width:50%;
+    height:200px;
+    background-color:#BCB2E4;
+    border-radius:20px;
+    position: relative;
+    left: 180px;
+    top: -205px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.exp-block{
+    width:20%;
+    height:660px;
+    background-color:#BCB2E4;
+    border-radius:20px;
+    position: relative;
+    left: 1300px;
+    top: -530px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.EAQ-block{
+    width:50%;
+    height:300px;
+    background-color:#BCB2E4;
+    border-radius:20px;
+    position: relative;
+    left: 220px;
+    top: -750px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
